@@ -17,40 +17,51 @@
 
 <body>
   <!--  Navbar  -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
-    <a class="navbar-brand" href="index.html"><span class="font-weight-bold">片山ひでのり法律事務所</span></a>
+  <nav class="navbar navbar-dark sticky-top" id="#top">
+    <a class="navbar-brand" href="#top"><span class="font-weight-bold">片山ひでのり法律事務所</span></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarText">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item">
-          <a class="nav-link" href="consultation.html">在宅法律相談</a>
+          <a class="nav-link" href="#childcustody-performance">父親の親権の実績</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">お客様の声</a>
+          <div class="dropdown-menu rgba2" id="">
+            <a class="dropdown-item" href="#review-fother">事件解決後のお客様の声</a>
+            <a class="dropdown-item" href="#documentary">【実録】相談だけで解決したお客様の声</a>
+            <a class="dropdown-item" href="childcustody-reviews/reviwes-divorce01-men01.html">ご相談にいらしたお客様の声</a>
+          </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="map.html">地図</a>
+          <a class="nav-link" href="#consultationathome">弁護士に在宅相談</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">事件着手までの流れ</a>
+          <div class="dropdown-menu rgba2" id="#">
+            <a class="dropdown-item" href="#procedure">事件着手までの流れ</a>
+            <a class="dropdown-item" href="#checklist">親権獲得 チェックリスト</a>
+            <a class="dropdown-item" href="#diagnosis">弁護士による | 親権獲得 事前診断</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">料　金</a>
+          <div class="dropdown-menu rgba2" id="#">
+            <a class="dropdown-item" href="#tokyo">東京家裁の事件</a>
+            <a class="dropdown-item" href="#shizuoka">静岡家裁の事件</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#payment">お支払方法</a>
+          </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="about.html">弁護士について</a>
+          <a class="nav-link" href="#top_hidenori">片山ひでのり について</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="reviews/reviews01.html">お客様の声</a>
+          <a class="nav-link" href="#faq">よくある質問</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="fee.html">料金表</a>
-        </li>
-        <!--  他のサイトできるまで隠す  --
-          <li class="nav-item">
-            <a class="nav-link" href="#"><span class="font-weight-bold">離　婚</span></a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="procedure.html" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">父親の親権</a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
-              <a class="dropdown-item" href="#">父親の親権TOP</a>
-              <a class="dropdown-item" href="#">在宅で弁護士に相談</a>
-            </div>
-          </li>
-          <!--  END 他のサイトできるまで隠す  -->
+      </ul>
     </div>
   </nav>
   <!--  End Navbar  -->
@@ -58,7 +69,7 @@
   <!--  Hidenori Photo  -->
   <div class="container-fluid hidenori-photo py-4">
     <div class="container bg-light py-3">
-      <h1 class="h3 bg-bluegreen text-white p-2">個人情報保護方針</h1>
+      <h1 class="h3 bg-teal text-white p-2">個人情報保護方針</h1>
       <p>片山ひでのり法律事務所（以下当事務所といいます。は、個人情報の保護に関する法令（以下「個人情報保護法」といいます。）その他の関係法令を遵守するとともに、本プライバシーポリシーを遵守します。
       <ol>
         <li>個人情報の収集・利用目的 個人情報は適切な方法で収集するものとし、情報主体（以下、本人という）から同意を得た目的および範囲に限定して利用することとします。 当事務所が個人情報を本人から直接収集し、利用する目的は次のとおりです。
@@ -84,18 +95,136 @@
     </div>
   </div>
   </div>
+  <!--  お問い合わせアイコン  -->
+  <div class="container-fluid bg-white-green mt-5 py-2">
+    <div class="container-fluid bg-teal text-white">
+      <h1 class="h4 py-2 text-center font-weight-bold">初回相談のご予約</h1>
+    </div>
 
-  <!--  StckyFooter  -->
-  <div class="container-fluid fixed-bottom bg-darkgreen text-center">
-    <a href="mailto:info@katayama-law.jp">
+    <!--  Flexbox  -->
+    <div class="container">
+      <div class="d-md-flex p-2  justify-content-center">
+        <div class="p-2 mt-2 mb-5 w-100 mx-2 text-center" style="background-color : teal;">
+          <a onclick="return gtag_report_conversion('tel:05031886226');" href="tel:05031886226">
+            <span style="font-size: 3em; color: #ffc107;">
+              <i class="fas fa-phone-square"></i>
+            </span>
+            <p class="mb-0 font-weight-bold text-white">電話で予約</p>
+          </a>
+        </div>
+        <!--  メールで予約  -->
+        <div class="p-2 mt-2 mb-5 w-100 mx-2 text-center" style="background-color : teal;">
+          <a href="#gform">
+            <span style="font-size: 3em; color: #ffc107;">
+              <i class="fas fa-paper-plane"></i>
+            </span>
+            <p class="font-weight-bold text-white">フォームで予約</p>
+          </a>
+        </div>
+        <!--  ENDメールで予約  -->
+      </div>
+    </div>
+    <!--  END Flexbox  -->
+  </div>
+  <!--  END お問い合わせアイコン  -->
+</div>
+</div>
+<!--  Google Form  -->
+<div class="container bg-light" id="gform">
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc82Efl_7cUDVuXyigXsgSeWBArrObZGVnzNuhh8PqahXDT6w/viewform?embedded=true" width="100%" height="1134" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe>
+</div>
+<!--  END Google Form  -->
+<!--  リンク  -->
+<!--  Gred System  -->
+<div class="container footer-font bg-light">
+<div class="row">
+  <div class="col-xl">
+    <div class="py-3 text-center">
+      <a href="consultation.html">
+        <p class="m-0">法律相談</p>
+      </a>
+    </div>
+  </div>
+  <div class="col-xl">
+    <div class="py-3 text-center">
+      <a href="map.html">
+        <p class="m-0">地　図</p>
+      </a>
+    </div>
+  </div>
+  <div class="col-xl">
+    <div class="py-3 text-center">
+      <a href="about.html">
+        <p class="m-0">弁護士について</p>
+      </a>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-xl">
+    <div class="py-3 text-center">
+      <a href="childcustody-reviews/reviwes-divorce01-men01.html">
+        <p class="m-0">お客様の声</p>
+      </a>
+    </div>
+  </div>
+  <div class="col-xl">
+    <div class="py-3 text-center">
+      <a href="privacy-policy.html">
+        <p class="m-0">個人情報保護方針</p>
+      </a>
+    </div>
+  </div>
+  <div class="col-xl">
+    <div class="py-3 text-center">
+      <a href="sitemap.html">
+        <p class="m-0">サイトマップ</p>
+      </a>
+    </div>
+  </div>
+</div>
+</div>
+<!--  END Gred System  -->
+<!--  END リンク  -->
+
+<!--  Footer no.1  -->
+<footer class="footer py-3 bg-light">
+<div class="container">
+  <address class="text-center">
+    <strong>片山ひでのり法律事務所</strong><br>
+    <strong>弁護士　片山栄範</strong><br>
+    静岡県弁護士会所属　登録番号４０４５９<br>
+    〒422-8067　静岡市駿河区南町１３−３<br>ＴＫビル４階<br>
+    <div class="lh-3">
+      <abbr title="Phone">電話</abbr> <a onclick="return gtag_report_conversion('tel:05031886226');" href="tel:05031886226"> 050-3188-6226 </a><br>
+      <a href="mailto:info@katayama-law.jp">info@katayama-law.jp</a>
+    </div>
+  </address>
+</div>
+</footer>
+
+<!--  StckyFooter  -->
+<div class="container-fluid fixed-bottom text-center bg-dark">
+<div class="d-flex justify-content-center">
+  <div class="mx-4">
+    <a href="tel:05031886226">
       <span style="font-size: 2em; color: #ffc107;">
-        <i class="fas fa-envelope"></i>
+        <i class="fas fa-phone-rotary"></i>
       </span>
-      <p class="mb-0 font-weight-bold text-white">メールで予約</p>
+      <p class="mb-0 font-weight-bold text-white">電話で予約</p>
     </a>
   </div>
-  <!--  END StckyFooter  -->
-
+  <div class="mx-4">
+    <a href="#gform">
+      <span style="font-size: 2em; color: #ffc107;">
+        <i class="fas fa-paper-plane"></i>
+      </span>
+      <p class="mb-0 font-weight-bold text-white">フォームで予約</p>
+    </a>
+  </div>
+</div>
+</div>
+<!--  END StckyFooter  -->
   <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
