@@ -19,6 +19,9 @@ hr {
 .lh-3{
   line-height: 3rem;
 }
+.lh-2{
+  line-height: 2rem;
+}
 
 .hidenori-photo{
   background-image: url(../../resorces/images/AdobeStock_170564055.jpg);
@@ -133,9 +136,6 @@ a:hover{
   font-size: 1rem;
 }
 
-.lh-3{
-  line-height: 3rem;
-}
 
 
 .bg-bluegreen{
