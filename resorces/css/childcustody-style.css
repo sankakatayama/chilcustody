@@ -172,7 +172,7 @@ a:hover{
 
 
 a{
-  color: #17a2b8
+  color: #17a2b8;
 }
 .dropdown-item.active, .dropdown-item:active{
   background-color: #0c5460;
